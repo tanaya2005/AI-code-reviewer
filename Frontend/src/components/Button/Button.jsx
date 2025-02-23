@@ -5,7 +5,7 @@ const Button = () => {
   return (
     <div className='but'>
         <button>
-            Submit
+            Review
         </button>
     </div>
   )

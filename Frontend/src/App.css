@@ -10,8 +10,12 @@ body{
   background-color: rgb(248, 188, 228);
   /* height: 600px; */
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   width: 37%;
   padding: 20px;
+  padding-top: 40px;
   position: relative;
 }
 
@@ -41,8 +45,8 @@ Button{
   width: 100px;
   position: fixed;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 10px;
+  right: 15px;
 }
 
 .code{

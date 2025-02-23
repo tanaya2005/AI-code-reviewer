@@ -3,12 +3,12 @@
   import "prismjs/themes/prism-tomorrow.css"
   import prism from "prismjs"
   import './App.css'
-  // import rehypeHighlight from "rehype-highlight";
-  // import "highlight.js/styles/github-dark.css";
   import axios from 'axios'
   import Editor from "react-simple-code-editor"
   import Button from './components/Button/Button'
   import Markdown from 'react-markdown'
+  // import rehypeHighlight from "rehype-highlight";
+  // import "highlight.js/styles/github-dark.css";
 
   const App = () => {
 
@@ -21,9 +21,7 @@
       prism.highlightAll()
     })
 
-    
     const [review, setReview] = useState(``)
-
 
     // async function reviewcode(){
     //   const response = await axios.post('http://localhost:3000/ai/get-review', {code})
@@ -47,6 +45,7 @@
       <Navbar></Navbar>
       <div className="page">
       <div className="left">
+        Write your code here:
         
         <div className="code">
 

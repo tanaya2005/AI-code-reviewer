@@ -36,7 +36,7 @@ Follow these steps to run the project locally:
 ### Installation
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/AI-code-reviewer.git
+   git clone https://github.com/tanaya2005/AI-code-reviewer.git
    cd AI-code-reviewer
 
 2. Install server dependencies:
